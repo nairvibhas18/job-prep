@@ -1,0 +1,188 @@
+{
+  "updated": "2026-09-05",
+  "privacy": {
+    "do_not_store": [
+      "salary history",
+      "family",
+      "health",
+      "politics",
+      "private relationships"
+    ]
+  },
+  "identity": {
+    "one_liner": "ML (or RL) Research/Engineering intern with strong SWE and research background",
+    "authorization": "US citizen; all US postings are in scope, including citizenship- or clearance-gated roles",
+    "gpa_on_resume": "always",
+    "extra_coursework": ["Computer Vision"],
+    "amazon": {
+      "same_team_return": false,
+      "open_to_other_teams": ["AWS", "Annapurna Labs"]
+    }
+  },
+  "terms": {
+    "in_scope": ["Spring 2027", "Summer 2027"],
+    "spring_2027": {
+      "goal": "skill-building; pivot into ML research / engineering / systems",
+      "priority": "equal with summer"
+    },
+    "summer_2027": {
+      "goal": "team and company to return to post-grad (Fall 2027 / new-grad)",
+      "priority": "equal with spring"
+    },
+    "date_constraints": "none",
+    "stop_applying_when": "offers in hand for both Spring 2027 and Summer 2027"
+  },
+  "constraints": {
+    "locations": "any",
+    "relocate": true,
+    "housing_stipend": "not required",
+    "work_mode": "any of in-person, hybrid, remote",
+    "compensation": "not a priority; no floor",
+    "weekly_hours_for_search": "15-20",
+    "company_size_minimum": null
+  },
+  "role_mix": {
+    "ml_track": 0.8,
+    "ml_track_includes": [
+      "applied_research",
+      "student_researcher",
+      "ml_engineering",
+      "ml_systems_infra"
+    ],
+    "ml_track_rank": [
+      "applied_research",
+      "ml_engineering",
+      "ml_systems_infra"
+    ],
+    "product_swe": 0.2,
+    "notes": "Pivoting off pure SWE into ML systems / research / engineering. Keep ~20% SWE because the SWE page is stronger and those odds are higher. Infosys-like RAG/agent internal tools are still in play, not a focus."
+  },
+  "single_best_role": "applied_research",
+  "work_shape": {
+    "want_more": "model training, eval, and research in PyTorch / JAX / TensorFlow",
+    "want_less": "production SWE on AI systems (Amazon intern was agent-eval product work, not ML)",
+    "infosys_rag_agents": "would consider",
+    "research_vs_shipping": "both equally important",
+    "mentorship": "ignore; JDs rarely specify",
+    "team_size": "smaller teams more interesting; big-tech intern structure is also fine",
+    "oncall": "ignore for intern search; prefers project ownership"
+  },
+  "domains": {
+    "must_not_miss": [
+      "robot foundation models",
+      "RL for control",
+      "compiler / runtime for inference",
+      "agent reliability"
+    ],
+    "most_interesting": [
+      "world models",
+      "simulation",
+      "foundation model training",
+      "inference"
+    ],
+    "can_do_but_not_the_goal": [
+      "interpretability",
+      "alignment"
+    ],
+    "rank": {
+      "world_models_simulation_robotics": "highest; stay open to the rest of autonomy / manipulation",
+      "foundation_models_training_inference": "priority growth area",
+      "ml_infrastructure": "strong interest",
+      "search_retrieval_ranking": "strong interest",
+      "agents_tooling_eval": "interesting, not highest",
+      "classic_backend_distributed_systems": "would consider (the 20% SWE bucket)",
+      "defense_national_security": "would consider",
+      "product_fullstack_consumer": "low",
+      "quant_trading_fintech": "out of scope unless the firm is doing ML research adjacent to the must-not-miss topics",
+      "social_good_climate_health": "not a priority"
+    },
+    "skip_topics": [
+      "CRUD SaaS",
+      "ads ranking",
+      "mobile-only",
+      "enterprise IT",
+      "crypto"
+    ]
+  },
+  "company_types_rank": [
+    "unicorn / growth startup",
+    "early startup (no minimum size)",
+    "hardware / robotics lab",
+    "big tech",
+    "frontier lab (still apply; credentials may be light)",
+    "defense",
+    "quant (only if ML-research-adjacent)"
+  ],
+  "prefer_strong_team_over_brand": true,
+  "named_teams": [
+    {"company": "NVIDIA", "team": "Cosmos"},
+    {"company": "Tesla", "team": "Optimus"}
+  ],
+  "must_apply_lists": [
+    {
+      "name": "Lenny 100",
+      "url": "https://www.lennysjobs.com/lenny100",
+      "as_of": "August 2026",
+      "count": 97,
+      "companies": [
+        "Abridge", "Airbnb", "Airwallex", "Anduril", "Anthropic",
+        "Applied Compute", "Applied Intuition", "Base", "Baseten", "Basis",
+        "Bedrock Robotics", "Black Forest Labs", "Chai Discovery", "Chainguard", "Clay",
+        "ClickHouse", "Cloudflare", "Cognition", "CoreWeave", "Crusoe",
+        "Cursor", "Cyera", "Databricks", "Decagon", "Deel",
+        "ElevenLabs", "Etched", "Exa", "Factory", "Fal",
+        "Figma", "Figure", "Fireworks", "Gamma", "Genspark",
+        "Glean", "Google", "Granola", "Handshake", "Harvey",
+        "Helsing", "Hex", "Kalshi", "Lambda", "LangChain",
+        "Legora", "Linear", "Liquid AI", "LlamaIndex", "Lovable",
+        "Mercor", "Mercury", "Mistral AI", "Modal", "n8n",
+        "Notion", "NVIDIA", "OpenAI", "OpenEvidence", "Palantir",
+        "Parallel Web Systems", "Periodic Labs", "Physical Intelligence", "Pierre Computer", "Polymarket",
+        "PostHog", "Prime Intellect", "Profound", "Ramp", "Reflection AI",
+        "Replit", "Revolut", "Rippling", "Runway", "Safe Superintelligence",
+        "Saronic", "Shield AI", "Shopify", "Sierra", "Skild",
+        "SpaceX", "Stripe", "Sunday Robotics", "Supabase", "Surge AI",
+        "Temporal", "Tesla", "Thinking Machines", "Together", "Turbopuffer",
+        "Vanta", "Vercel", "Waymo", "Whatnot", "Wispr Flow",
+        "WorkOS", "World Labs"
+      ]
+    }
+  ],
+  "no_company_blacklist": true,
+  "skills": {
+    "want_to_learn_on_the_job": [
+      "PyTorch", "TensorFlow", "JAX", "Kubernetes", "CUDA",
+      "IsaacLab", "distributed training", "compilers"
+    ],
+    "do_not_typecast": [
+      "frontend",
+      "RAG chatbots",
+      "Kotlin-only"
+    ]
+  },
+  "cycle_signal": {
+    "would_take_any_already_tailored_company_ft": true,
+    "popped_this_cycle": [
+      "Tesla RL Engineer Intern (Optimus)",
+      "NVIDIA Deep Learning Intern"
+    ],
+    "would_take_tomorrow": "Tesla RL Optimus",
+    "forced_rank": [
+      "Tesla RL",
+      "NVIDIA Deep Learning",
+      "Stripe SWE",
+      "Google SWE"
+    ]
+  },
+  "agent": {
+    "urls_are_pre_vetted": true,
+    "always_tailor": true,
+    "do_not_gatekeep_pasted_urls": true,
+    "generic_intern_jd_at_liked_company": "apply",
+    "prefer_base_mle_when_ambiguous": true,
+    "outreach_on_every_application": true,
+    "keep_living_target_list": true,
+    "do_not_keep_do_not_apply_list": true,
+    "target_list_path": "data/targets.json"
+  }
+}

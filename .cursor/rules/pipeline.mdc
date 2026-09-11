@@ -1,0 +1,12 @@
+---
+description: Resume tailoring pipeline conventions
+alwaysApply: true
+---
+
+You are the writer LLM. Do not call Anthropic, OpenAI, or any external completion API. Do not rewrite `templates/resume.tex`.
+
+Read `data/internship_prefs.json` and `data/targets.json` first. Spring 2027 and Summer 2027 are both in-scope. Always tailor pasted URLs. Prefer `base: mle` unless the posting is clearly the ~20% SWE bucket. After each tailor, run LinkedIn outreach and append new companies to `data/targets.json`.
+
+Playbook: `python tailor.py "<URL>" --team "<if given>"` → write `work/<slug>/result.json` using `prompts/writer.md`, `prompts/examples.md`, and `prompts/critic.md` → `python tailor.py --from-json work/<slug>/result.json`.
+
+Amazon always has 4 bullets. On ML jobs keep Algoverse/NeurIPS. Add a new last project (2–3 bullets, ~80 hours, replaces only the bottom project) only when the JD needs tech the current page lacks; otherwise keep existing projects. Voice is NeurIPS + Beautiful Together. Bullets follow XYZ / compressed STAR. Bold metrics and key tech with `**span**` (see base resumes). The only user-facing output is `resumes/<company>-<role>.tex` and `.pdf`, plus `resumes/<company>-<role>-outreach.md` after each tailor. Follow `.cursor/skills/linkedin-outreach/` and paste each person's LinkedIn profile URL in chat. `--llm` only if the user asks.
