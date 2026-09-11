@@ -13,3 +13,6 @@ resumes/*
 *.fdb_latexmk
 *.synctex.gz
 *.out
+data/
+
+
