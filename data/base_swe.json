@@ -1,0 +1,114 @@
+{
+  "base": "swe",
+  "coursework": "Foundations of Software Engineering, Data Structures and Algorithms, Machine/Deep Learning",
+  "skills": {
+    "languages": "Python, Java, Kotlin, Go, SQL, JavaScript, TypeScript, C, C++, HTML, R, Ruby",
+    "developer_tools": "AWS, Docker, Kubernetes, FastAPI, Supabase, MongoDB, Vercel, GitHub Actions",
+    "libraries": "React, Next.js, PostgreSQL, PyTorch, TensorFlow, scikit-learn, NumPy"
+  },
+  "work": [
+    {
+      "id": "amazon",
+      "company": "Amazon",
+      "title": "Software Development Intern",
+      "location": "Seattle, WA",
+      "dates": "June 2026 -- August 2026",
+      "must_keep": true,
+      "bullet_count": 4,
+      "allowed_tech": [
+        "S3", "Lambda", "Bedrock", "Kotlin", "Kotest", "TypeScript", "CDK", "KMS",
+        "AWS", "dead-letter queue", "IAM"
+      ],
+      "bullets": [
+        "Shipped an event-driven pipeline (**S3**, **Lambda**, **Bedrock** all in **Kotlin**) grading AI oncall agents against human fixes and proposing corrections to the agent spec files that misled them, improving root-cause accuracy on unseen tickets to **78%** and cutting wrong diagnoses by **~50%**.",
+        "Wrote **277** tests (**Kotest**) with test code exceeding production code, running end-to-end cases through S3 events.",
+        "Hardened an agent reading untrusted ticket text against **prompt injection** with a fail-closed hook (**146** test cases) that vets every tool call, pins least-privilege roles, and confines all writes to one bucket.",
+        "Provisioned **TypeScript CDK** infrastructure (KMS-encrypted bucket, dead-letter queue, cross-account role, alarms) behind a self-updating pipeline gated on security scans and end-to-end tests, eliminating all manual deploy steps."
+      ]
+    },
+    {
+      "id": "infosys",
+      "company": "Infosys",
+      "title": "Backend Engineering Intern",
+      "location": "Raleigh, NC",
+      "dates": "May 2025 -- July 2025",
+      "must_keep": false,
+      "allowed_tech": [
+        "Python", "Pydantic AI", "Docker", "RAG", "Retrieval-Augmented Generation", "APIs"
+      ],
+      "bullets": [
+        "Reduced manual lookup time by **40%** and cut query latency to **under 3 seconds** by building an agentic **Retrieval Augmented Generation** system that indexed **10,000+** corporate documents using **Pydantic AI**.",
+        "Designed and deployed a production-ready internal chatbot using **Python** and **Docker**, integrating internal APIs, and streamlining company workflows by automating tasks such as company database search, employee resource queries, and policy navigation."
+      ]
+    },
+    {
+      "id": "beautiful_together",
+      "company": "Computer Science for Social Good -- Beautiful Together",
+      "title": "Full Stack Developer",
+      "location": "Chapel Hill, NC",
+      "dates": "Sept. 2024 -- May 2025",
+      "must_keep": false,
+      "voice_example": true,
+      "allowed_tech": [
+        "Python", "BeautifulSoup", "React", "Next.js", "Vercel", "GitHub Actions", "SQL"
+      ],
+      "bullets": [
+        "Facilitated adoption outcomes for **2,400+** animals by engineering a weighted preference matching algorithm that dynamically ranks candidates using real-time data scraped via **BeautifulSoup**.",
+        "Built the full-stack application with a 10-member team using **React** (**Next.js**), holding code reviews and managing the end-to-end development lifecycle from database design to deployment.",
+        "Automated production deployment on **Vercel** via **GitHub Actions**, and optimized database queries (**SQL**) for scalability and real-time reliability."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "algoverse",
+      "name": "Hybrid Attribution & Pruning for Transformer Circuits",
+      "role": "Publication / Algoverse AI",
+      "location": "Remote",
+      "dates": "May 2025 -- Present",
+      "must_keep_ml": true,
+      "must_keep_swe": false,
+      "voice_example": true,
+      "allowed_tech": [
+        "PyTorch", "TensorFlow", "NVIDIA H100", "Runpod", "LLM"
+      ],
+      "bullets": [
+        "**Co-first author** of a paper accepted to **NeurIPS 2025** Mechanistic Interpretability (**MechInterp**) and New Perspectives in Graph ML (**NPGML**) Workshops.",
+        "Designed a novel Hybrid Attribution and Pruning (HAP) framework that combines attribution patching with edge pruning to discover faithful LLM circuits **46% faster** than state-of-the-art (SOTA) methods.",
+        "Implemented custom evaluation pipelines in **PyTorch/TensorFlow**, optimizing GPU memory usage on NVIDIA H100 clusters to benchmark performance against SOTA methods (hosted on **Runpod**)."
+      ]
+    },
+    {
+      "id": "loser",
+      "name": "LoSeR: Decomposable High-Frequency Trading Architecture",
+      "role": "Graduate Research Project",
+      "location": "Chapel Hill, NC",
+      "dates": "Sep. 2025 -- Dec. 2025",
+      "must_keep_ml": false,
+      "must_keep_swe": false,
+      "allowed_tech": [
+        "LSTM", "Statistical Recurrent Units", "time-series"
+      ],
+      "bullets": [
+        "Architected a novel hybrid framework (**LoSeR**) that decomposes time-series into linear and spectral trends, using **Statistical Recurrent Units** to model residuals and outperform **LSTMs** in capturing long-range dependencies.",
+        "Engineered a multi-horizon forecasting engine (predicting 1, 10, 30, 60-minute intervals) that implements dynamic uncertainty-based thresholding (RMSE scaling) to optimize trade execution, demonstrating profitable generalization on high-volatility S&P 500 data."
+      ]
+    },
+    {
+      "id": "tennis",
+      "name": "Algorithmic Tennis Betting Agent",
+      "role": "Independent Project",
+      "location": "Remote",
+      "dates": "July 2026 -- Present",
+      "must_keep_ml": false,
+      "must_keep_swe": false,
+      "allowed_tech": [
+        "Python", "Pandas", "PostgreSQL", "SQL", "ETL"
+      ],
+      "bullets": [
+        "Engineered a scalable **ETL** data pipeline and **PostgreSQL** database using **Python** and Pandas to ingest and normalize **75,000+** records, establishing a single source of truth for predictive modeling.",
+        "Architected a time-series model powered by dynamic **SQL Window Functions**, preventing temporal data leakage and achieving a backtested predictive accuracy of **68%**."
+      ]
+    }
+  ]
+}
