@@ -39,7 +39,7 @@ Batch: run the same four steps per URL. Do not skip the critic pass.
 - Honor `must_keep` and `bullet_count` on work entries in the base JSON.
 - On ML jobs, keep projects with `must_keep_ml`.
 - New last project (2–3 bullets, ~80 hours, replaces only the bottom project) **only** when the JD needs tech the current page lacks. Otherwise keep every existing project.
-- Voice: base entries marked `voice_example`, plus XYZ / compressed STAR.
+- Voice: `prompts/examples.md`, plus XYZ / compressed STAR.
 - Bold metrics and key tech with `**span**` like the base resumes. Never `\textbf{}` in JSON.
 - Existing metrics and entry **dates** must not change (copy from the base JSON). Do not rewrite a finished date range to `Present`. New-project metrics are conservative estimates (never `[placeholder]`).
 - No professional summary. Target team overrides a generic JD when they conflict.

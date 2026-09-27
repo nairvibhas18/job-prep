@@ -1,30 +1,32 @@
-# Voice few-shots (shape only)
+# Voice few-shots (mandatory)
 
-These bullets are fictional. They show cadence, not a real resume. Match this shape: concrete verb, specific tech, real problem, one number. Plain English. Do not sound like a keyword cloud or a systems-design doc.
+Match this cadence. Concrete verb, specific tech, real problem, one number. Plain English. Do not sound like a keyword cloud or a systems-design doc.
 
-When a base entry has `"voice_example": true`, match that entry's density instead of copying these sentences onto someone else's jobs.
+Do **not** copy Amazon's density unless the target team is low-level systems/runtimes. Default voice = NeurIPS + Beautiful Together.
 
-## Research voice
+## NeurIPS / Algoverse (research voice)
 
-- Trained a small classifier in **PyTorch** and lifted held-out accuracy by **6 points** over the previous baseline.
-- Wrote an evaluation script that reran the same **500** examples after each change so regressions were visible before the write-up.
+- **Co-first author** of a paper accepted to **NeurIPS 2025** Mechanistic Interpretability (**MechInterp**) and New Perspectives in Graph ML (**NPGML**) Workshops.
+- Designed a novel Hybrid Attribution and Pruning (HAP) framework that combines attribution patching with edge pruning to discover faithful LLM circuits **46% faster** than state-of-the-art methods.
+- Implemented attribution scoring, pruning optimization, and evaluation pipelines in **PyTorch/TensorFlow**; used GPT-2 Small as a baseline model, with experiments run on NVIDIA H100 clusters (hosted on **Runpod**).
 
-## Product / systems voice
+## Beautiful Together (product / systems voice)
 
-- Shipped a **FastAPI** endpoint that cut failed checkouts by **18%** by retrying idempotent payment calls.
-- Built the signup flow in **React** (**Next.js**) with one other engineer, from the schema through the production deploy.
-- Automated production deploys with **GitHub Actions** and tightened the slowest **SQL** query on the account page.
+- Facilitated adoption outcomes for **2,400+** animals by engineering a weighted preference matching algorithm that dynamically ranks candidates using real-time data scraped via **BeautifulSoup**.
+- Built the full-stack application with a 10-member team using **React** (**Next.js**), holding code reviews and managing the end-to-end development lifecycle from database design to deployment.
+- Automated production deployment on **Vercel** via **GitHub Actions**, and optimized database queries (**SQL**) for scalability and real-time reliability.
 
 ## Bolding (JSON `**span**` → LaTeX `\textbf`)
 
-In `result.json` mark spans with `**double asterisks**`. Never write `\textbf{}` and never leave `**` in the PDF (the renderer converts them).
+Copy this density from the base resumes. In `result.json` mark spans with `**double asterisks**`. Never write `\textbf{}` and never leave `**` in the PDF (the renderer converts them).
 
 Bold:
 
-- Metrics and counts: **18%**, **6 points**, **500**
-- Key technologies and named methods in that bullet: **FastAPI**, **PyTorch**, **React** (**Next.js**), **SQL**
+- Metrics and counts: **78%**, **~50%**, **277**, **146**, **40%**, **under 3 seconds**, **10,000+**, **2,400+**, **46% faster**, **75,000+**, **68%**, **12,600+**
+- Key technologies and named methods in that bullet: **Kotlin**, **AWS Lambda**, **Pydantic AI**, **Retrieval Augmented Generation**, **BeautifulSoup**, **React** (**Next.js**)
+- Signature research phrases when they appear: **Co-first author**, **NeurIPS 2025**, **MechInterp**, **NPGML**
 
-Do not bold whole clauses, verbs, or company names (headings are already bold). Typical bullet: 3–6 spans. A bullet may have none. When you keep a base bullet, keep its `**` marks. When you rewrite, re-mark the same classes of spans. New-project bullets follow the same pattern.
+Do not bold whole clauses, verbs, or company names (headings are already bold). Typical bullet: 3–6 spans. A bullet may have none (LoSeR's forecasting bullet). When you keep a base bullet, keep its `**` marks. When you rewrite, re-mark the same classes of spans. New-project bullets follow the same pattern (**PyTorch**, **Docker**, a conservative metric such as **epsilon = 8**).
 
 ## Shape (XYZ / STAR) — structure only, not voice
 
@@ -36,12 +38,12 @@ Same idea as: [Action verb] + [technical implementation] + [specific problem] + 
 
 Bad: "Built a chatbot using Python"
 
-Good: "Engineered a FastAPI service using **retrieval over internal docs**, cutting lookup time by **40%** on a **10,000+** document set"
+Good: "Engineered a FastAPI-based chatbot using **Retrieval-Augmented Generation (RAG)** over **10K+** documents, reducing internal search time by **40%**"
 
-Shape references (do **not** copy these facts onto jobs that did not do this work):
+Shape references (do **not** copy these facts or add Hugging Face/React onto jobs that did not use them):
 
-- Led the signup form in React and TypeScript, raising completion by 12% and cutting load time on that page.
-- Fine-tuned a small text model in PyTorch, improving task accuracy by 8 points on a held-out set of 500 examples.
+- Led front-end development of a core user onboarding feature using React and TypeScript, boosting daily active user engagement by 25% and reducing page load time by 15%.
+- Fine-tuned a transformer-based LLM using PyTorch and Hugging Face, improving domain-specific response accuracy by 18% while cutting token inference latency by 35%.
 
 Prefer **one or two metrics**, not a list. If two metrics, they must both be true (existing jobs: only metrics already on the base resume).
 

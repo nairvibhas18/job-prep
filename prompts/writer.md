@@ -65,7 +65,7 @@ Equivalent formula: [Action Verb] + [Technical Implementation] + [Specific Probl
 - Distinct verbs across nearby bullets
 - Correct tense (past roles in past tense)
 - Naturally embed JD keywords where they are true. No stuffing.
-- Match the cadence of base entries marked `"voice_example": true`. If none are marked, match `prompts/examples.md`.
+- Match the cadence in `prompts/examples.md`. That file is mandatory. Default voice is the research and product few-shots there.
 
 ## Bolding
 

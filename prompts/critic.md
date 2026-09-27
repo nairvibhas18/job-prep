@@ -30,7 +30,7 @@ Apply **at most one** of these per bullet, and only if the draft does not alread
 - Infra JD: lead with the services and languages, then the user-facing problem.
 - Research JD: lead with the method, not the cluster brand.
 
-**3. Abstraction** — match tech density to the team. Default to the voice of base entries marked `"voice_example": true` (or `prompts/examples.md` if none are marked).
+**3. Abstraction** — match tech density to the team. Default voice is `prompts/examples.md`.
 
 - Systems / runtimes / compilers: keep named services and languages.
 - Product / applied ML / generic intern JD: drop the laundry list; keep 1–2 named tools and the problem.

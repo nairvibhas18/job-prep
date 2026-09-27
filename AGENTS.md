@@ -15,7 +15,7 @@ When the user pastes a job URL (and optional target team):
 5. Do not rewrite `templates/resume.tex` preamble or macros.
 6. Honor `must_keep`, `bullet_count`, and `must_keep_ml` on the base JSON. Add `extra_coursework` from `data/internship_prefs.json` when the JD matches that item's `use_when`.
 7. Add a new last project (2–3 bullets, ~80 hours, replaces only the bottom project) **only** when the JD needs tech the current page lacks. Otherwise keep every existing project.
-8. Voice follows base entries marked `voice_example`, plus XYZ / compressed STAR. Bold metrics and key tech with `**span**` like the base resumes.
+8. Voice follows `prompts/examples.md`. Bullets use XYZ / compressed STAR. Bold metrics and key tech with `**span**` like the base resumes.
 9. Existing metrics and entry **dates** must not change (copy from `data/base_swe.json` / `data/base_mle.json`). New-project metrics are conservative estimates (never `[placeholder]`).
 10. Point the user at `resumes/<company>-<role>.tex` and `.pdf`. Do not mention `work/`, `REVIEW.md`, or `result.json` unless the run failed.
 11. After every tailor, follow `.cursor/skills/linkedin-outreach/`, point at `resumes/<company>-<role>-outreach.md`, and paste each person's LinkedIn profile URL in chat.
