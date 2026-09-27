@@ -1,0 +1,50 @@
+{
+  "base": "swe",
+  "coursework": "Data Structures, Algorithms",
+  "skills": {
+    "languages": "Python, SQL",
+    "developer_tools": "Git, Docker",
+    "libraries": "pytest, FastAPI"
+  },
+  "work": [
+    {
+      "id": "acme",
+      "company": "Acme",
+      "title": "Software Intern",
+      "location": "Remote",
+      "dates": "May 2025 -- Aug. 2025",
+      "must_keep": true,
+      "bullet_count": 4,
+      "bullets": [
+        "Shipped a checkout API in **Python** that cut payment errors by **18%**.",
+        "Added **pytest** coverage around billing so regressions failed in CI before release.",
+        "Built a **SQL** reconciliation report that shortened a weekly close from hours to minutes.",
+        "Documented the rollback path so on-call could revert a deploy without paging the author."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "research",
+      "name": "Sample Research",
+      "role": "Researcher",
+      "location": "Remote",
+      "dates": "Jan. 2025 -- May 2025",
+      "must_keep_ml": true,
+      "bullets": [
+        "Trained a small classifier in **PyTorch** and reported accuracy on a held-out set."
+      ]
+    },
+    {
+      "id": "side",
+      "name": "Side Project",
+      "role": "Builder",
+      "location": "Remote",
+      "dates": "Jun. 2025 -- Aug. 2025",
+      "must_keep_ml": false,
+      "bullets": [
+        "Built a command-line tool in **Python** that parsed server logs into a daily summary."
+      ]
+    }
+  ]
+}

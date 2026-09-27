@@ -1,0 +1,29 @@
+{
+  "identity_line": "Jordan, Example University CS (May '28)",
+  "first_name": "Jordan",
+  "school": "Example University",
+  "school_search": ["Example University"],
+  "graduation": "May 2028",
+  "intern_terms": ["Summer 2027"],
+  "default_intern_term": "Summer 2027",
+  "linkedin_url": "https://www.linkedin.com/in/example",
+  "north_star": {
+    "labs": [],
+    "topics": ["distributed systems"]
+  },
+  "credentials": {
+    "intern": "Software intern: checkout API in Python"
+  },
+  "batch": {
+    "max_profiles_opened": 5,
+    "max_recruiter": 1,
+    "max_ics": 3,
+    "max_hiring_manager": 1,
+    "max_ics_same_small_team": 3
+  },
+  "ic_tenure_months": {
+    "min": 6,
+    "max": 24
+  },
+  "connection_note_max_chars": 300
+}

@@ -1,0 +1,17 @@
+{
+  "terms": {
+    "in_scope": ["Summer 2027"]
+  },
+  "role_mix": {
+    "ml_track": 0.8,
+    "product_swe": 0.2
+  },
+  "identity": {
+    "extra_coursework": [
+      {
+        "name": "Computer Vision",
+        "use_when": "vision, perception, video"
+      }
+    ]
+  }
+}

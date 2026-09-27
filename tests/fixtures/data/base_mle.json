@@ -1,0 +1,50 @@
+{
+  "base": "mle",
+  "coursework": "Machine Learning, Algorithms",
+  "skills": {
+    "languages": "Python",
+    "developer_tools": "Git, Docker",
+    "libraries": "PyTorch"
+  },
+  "work": [
+    {
+      "id": "acme",
+      "company": "Acme",
+      "title": "ML Intern",
+      "location": "Remote",
+      "dates": "May 2025 -- Aug. 2025",
+      "must_keep": true,
+      "bullet_count": 4,
+      "bullets": [
+        "Shipped an evaluation harness in **Python** that raised label agreement by **18%**.",
+        "Logged model failures to object storage so the team could replay bad cases.",
+        "Compared two training runs and wrote up which change moved the held-out metric.",
+        "Left a short runbook for how to retrain the weekly model from a clean checkout."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "research",
+      "name": "Sample Research",
+      "role": "Researcher",
+      "location": "Remote",
+      "dates": "Jan. 2025 -- May 2025",
+      "must_keep_ml": true,
+      "bullets": [
+        "Trained a small classifier in **PyTorch** and reported accuracy on a held-out set."
+      ]
+    },
+    {
+      "id": "side",
+      "name": "Side Project",
+      "role": "Builder",
+      "location": "Remote",
+      "dates": "Jun. 2025 -- Aug. 2025",
+      "must_keep_ml": false,
+      "bullets": [
+        "Built a command-line tool in **Python** that parsed server logs into a daily summary."
+      ]
+    }
+  ]
+}

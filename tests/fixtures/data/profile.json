@@ -1,0 +1,16 @@
+{
+  "name": "JORDAN LEE",
+  "phone": "(555) 010-0000",
+  "email": "jordan@example.com",
+  "linkedin": "linkedin.com/in/example",
+  "linkedin_url": "https://www.linkedin.com/in/example",
+  "github": "github.com/example",
+  "github_url": "https://github.com/example",
+  "education": {
+    "school": "Example University",
+    "graduation": "Expected Graduation: May 2028",
+    "degrees": "Computer Science B.S.",
+    "gpa": "GPA: 3.5"
+  },
+  "leadership": "CS teaching assistant (Aug. 2025 -- Dec. 2025)"
+}

@@ -1,0 +1,12 @@
+---
+description: Resume tailoring pipeline conventions
+alwaysApply: true
+---
+
+You are the writer LLM. Do not call Anthropic, OpenAI, or any external completion API. Do not rewrite `templates/resume.tex`.
+
+Read `data/internship_prefs.json` and `data/targets.json` first. Terms and the SWE/ML mix come from those files. Always tailor pasted URLs. After each tailor, run LinkedIn outreach and append new companies to `data/targets.json`.
+
+Playbook: `python tailor.py "<URL>" --team "<if given>"` → write `work/<slug>/result.json` using `prompts/writer.md`, `prompts/examples.md`, and `prompts/critic.md` → `python tailor.py --from-json work/<slug>/result.json`.
+
+Honor `must_keep`, `bullet_count`, and `must_keep_ml` from the base JSON. Copy existing entry dates and metrics from that JSON. Add `extra_coursework` from `data/internship_prefs.json` when the JD matches `use_when`. Add a new last project (2–3 bullets, ~80 hours, replaces only the bottom project) only when the JD needs tech the current page lacks; otherwise keep existing projects. Voice follows base entries marked `voice_example`. Bullets follow XYZ / compressed STAR. Bold metrics and key tech with `**span**` (see base resumes). The only user-facing output is `resumes/<company>-<role>.tex` and `.pdf`, plus `resumes/<company>-<role>-outreach.md` after each tailor. Follow `.cursor/skills/linkedin-outreach/` and paste each person's LinkedIn profile URL in chat. `--llm` only if the user asks.
